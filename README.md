@@ -1,5 +1,5 @@
 # 💫 About Me:
-I'm a software developer who recently graduated from the University of Waterloo. I'm fascinated by the potential of coding, machine learning, and creating impactful software.
+I'm a software developer from the University of Waterloo. I like doing things and talking about things. 
 
 
 ## 🌐 Socials:
