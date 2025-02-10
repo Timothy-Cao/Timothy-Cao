@@ -1,5 +1,5 @@
 # 💫 About Me:
-I'm a software developer from the University of Waterloo. I like doing things and talking about things. 
+I'm a software developer from the University of Waterloo.  
 
 
 ## 🌐 Socials:
