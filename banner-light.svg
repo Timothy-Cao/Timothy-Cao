@@ -1,21 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="900" height="240" role="img" aria-label="Visit my actual site: TIMCAO.COM">
   <style>
-    .cursor { animation: blink 2s steps(2) infinite; }
-    @keyframes blink {
-      0%, 49%   { opacity: 1; }
-      50%, 100% { opacity: 0; }
-    }
     .arrow-left  { transform-box: fill-box; transform-origin: center; animation: poke-right 2.4s ease-in-out infinite; }
     .arrow-right { transform-box: fill-box; transform-origin: center; animation: poke-left  2.4s ease-in-out infinite; }
-    @keyframes poke-right {
-      0%, 100% { transform: translateX(0); }
-      50%      { transform: translateX(14px); }
-    }
-    @keyframes poke-left {
-      0%, 100% { transform: translateX(0); }
-      50%      { transform: translateX(-14px); }
-    }
+    @keyframes poke-right { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(14px); } }
+    @keyframes poke-left  { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(-14px); } }
   </style>
+
+  <defs>
+    <linearGradient id="flow" x1="0" y1="0" x2="400" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="repeat">
+      <stop offset="0"    stop-color="#db2777"/>
+      <stop offset="0.33" stop-color="#7e22ce"/>
+      <stop offset="0.66" stop-color="#1d4ed8"/>
+      <stop offset="1"    stop-color="#db2777"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="400 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
 
   <circle cx="828" cy="28" r="6" fill="#ef4444"/>
   <circle cx="850" cy="28" r="6" fill="#0891b2"/>
@@ -26,9 +25,7 @@
   <text class="arrow-left"  x="170" y="170" font-family="ui-sans-serif, system-ui, sans-serif" font-size="38" font-weight="600" fill="#52525b" text-anchor="middle">→</text>
   <text class="arrow-right" x="730" y="170" font-family="ui-sans-serif, system-ui, sans-serif" font-size="38" font-weight="600" fill="#52525b" text-anchor="middle">←</text>
 
-  <text x="450" y="175" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'Courier New', monospace" font-size="68" font-weight="800" text-anchor="middle" letter-spacing="4">
-    <tspan fill="#0a0a0a">TIMCAO.COM</tspan><tspan class="cursor" fill="#dc2626" dx="4">|</tspan>
-  </text>
+  <text x="450" y="175" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'Courier New', monospace" font-size="68" font-weight="800" text-anchor="middle" letter-spacing="4" fill="url(#flow)">TIMCAO.COM</text>
 
   <text x="450" y="222" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="400" fill="#71717a" text-anchor="middle" letter-spacing="1">GH Repos privated starting June 2026</text>
 </svg>
