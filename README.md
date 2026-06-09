@@ -2,17 +2,15 @@
 
 <br>
 
-### Visit my actual site
+<a href="https://timcao.com">
+  <img src="./banner.svg" alt="TIMCAO.COM — visit my actual site" width="720"/>
+</a>
 
-# [TIMCAO.COM](https://timcao.com)
+<br><br>
 
-<br>
-
-[![timcao.com](./preview.png)](https://timcao.com)
-
-<br>
-
-###### Repos switched private since 06/06/2026
+<a href="https://timcao.com">
+  <img src="./preview.png" alt="timcao.com preview" width="640"/>
+</a>
 
 <br>
 
