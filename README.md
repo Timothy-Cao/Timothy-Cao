@@ -1,10 +1,14 @@
 <div align="center">
 
-<br><br>
+<br>
 
 ### Visit my actual site
 
 # [TIMCAO.COM](https://timcao.com)
+
+<br>
+
+[![timcao.com](./preview.png)](https://timcao.com)
 
 <br>
 
