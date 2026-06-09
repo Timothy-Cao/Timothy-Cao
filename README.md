@@ -8,7 +8,7 @@
 </a>
 
 <a href="https://timcao.com">
-  <img src="./preview.png" alt="timcao.com preview" width="100%"/>
+  <img src="./preview.gif" alt="timcao.com preview" width="100%"/>
 </a>
 
 </div>
