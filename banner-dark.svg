@@ -1,12 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="900" height="240" role="img" aria-label="Visit my actual site: TIMCAO.COM">
+  <style>
+    .wordmark {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: breathe 3.6s ease-in-out infinite;
+    }
+    @keyframes breathe {
+      0%, 100% { transform: scale(1); }
+      50%      { transform: scale(1.025); }
+    }
+    .cursor { animation: blink 1.1s steps(2) infinite; }
+    @keyframes blink {
+      0%, 49%   { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+  </style>
+
   <circle cx="828" cy="28" r="6" fill="#ef4444"/>
   <circle cx="850" cy="28" r="6" fill="#22d3ee"/>
   <circle cx="872" cy="28" r="6" fill="#22c55e"/>
 
   <text x="450" y="100" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="500" fill="#71717a" text-anchor="middle" letter-spacing="8">VISIT  MY  ACTUAL  SITE</text>
 
-  <text x="450" y="175" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'Courier New', monospace" font-size="68" font-weight="800" text-anchor="middle" letter-spacing="4">
-    <tspan fill="#fafafa">TIMCAO.COM</tspan><tspan fill="#ef4444" dx="4">|</tspan>
+  <text class="wordmark" x="450" y="175" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'Courier New', monospace" font-size="68" font-weight="800" text-anchor="middle" letter-spacing="4">
+    <tspan fill="#fafafa">TIMCAO.COM</tspan><tspan class="cursor" fill="#ef4444" dx="4">|</tspan>
   </text>
 
   <text x="450" y="222" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="400" fill="#71717a" text-anchor="middle" letter-spacing="1">Repos switched private since 06/06/2026</text>
