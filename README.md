@@ -1,13 +1,15 @@
 <div align="center">
 
-<br><br><br>
+<br><br>
 
-### hey, I'm Tim.
+### Visit my actual site
 
-# [→ timcao.com](https://timcao.com)
+# [TIMCAO.COM](https://timcao.com)
 
-###### everything I make lives there.
+<br>
 
-<br><br><br>
+###### Repos switched private since 06/06/2026
+
+<br>
 
 </div>
