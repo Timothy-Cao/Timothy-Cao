@@ -11,4 +11,8 @@
   <img src="./preview.webp" alt="timcao.com preview"/>
 </a>
 
+<br>
+
+<sub><i>Source access on request — DM me if you're collaborating on, integrating with, or actively using one of my deployed projects.</i></sub>
+
 </div>
