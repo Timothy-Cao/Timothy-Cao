@@ -1,17 +1,14 @@
 <div align="center">
 
-<br>
-
 <a href="https://timcao.com">
-  <img src="./banner.svg" alt="TIMCAO.COM — visit my actual site" width="720"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./banner-dark.svg">
+    <img src="./banner-light.svg" alt="TIMCAO.COM — visit my actual site" width="100%">
+  </picture>
 </a>
 
-<br><br>
-
 <a href="https://timcao.com">
-  <img src="./preview.png" alt="timcao.com preview" width="640"/>
+  <img src="./preview.png" alt="timcao.com preview" width="100%"/>
 </a>
-
-<br>
 
 </div>
